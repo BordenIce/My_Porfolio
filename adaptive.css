@@ -1,0 +1,59 @@
+@media (max-width:1000px){
+    .btn{
+        font-size: 15px;
+        max-width: 80px;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 0 auto;
+    }
+    .navbar a{
+        display: none;
+    }
+    .menu-icon img{
+        display: flex;
+    }
+    .avatar img{
+        height: 300px;
+    }
+    .intro h1 {
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 20px;
+    }
+    .group{
+        height: 300px;
+    }
+    .about-image{
+        height: 200px;
+    }
+    .about-text{
+        height: 250px;
+        width: 300px;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .skills-wrapper{
+        max-width: 80%;
+    }
+    .skill-set{
+        width: 150px;
+    }
+    .work_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .work-set img{
+        width: 700px;
+    }
+    .cantact_image img{
+        display: none;
+    }
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-top: 20px;
+    }
+}

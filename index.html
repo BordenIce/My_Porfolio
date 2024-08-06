@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img src="./images/logo.png" alt="logo"></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#main" class="navbar main-link active">Главная</a></li>
+                    <li><a href="#about" class="navbar about-link">Обо мне</a></li>
+                    <li><a href="#skills" class="navbar skills-link">Навыки</a></li>
+                    <li><a href="#work" class="navbar work-link">Работы</a></li>
+                    <li><a href="#review" class="navbar review-link">Отзывы</a></li>
+                    <li><a href="#contact" class="navbar contact-link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="menu-icon" onclick="menu_btn()"><img src="./images/Menu.png" alt="Menu"></div>
+        </header>
+        <div class="menu_window" id="menu_window">
+            <span class="close" onclick="closeMenu()">&times;</span>
+            <div class="menuNavbar">
+                <ul>
+                    <li><a href="#main" class="menuNavbar main-link active">Главная</a></li>
+                    <li><a href="#about" class="menuNavbar about-link">Обо мне</a></li>
+                    <li><a href="#skills" class="menuNavbar skills-link">Навыки</a></li>
+                    <li><a href="#work" class="menuNavbar work-link">Работы</a></li>
+                    <li><a href="#review" class="menuNavbar review-link">Отзывы</a></li>
+                    <li><a href="#contact" class="menuNavbar contact-link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="main" id="main">
+            <div class="wrapper main-wrapper">
+                <div class="intro">
+                    <h1>Hello Everybody!<br> I'm <span>BordenIce</span></h1>
+                    <p>And I Am <span class="highlight">Web Developer|</span></p>
+                    <a href="#about" class="btn">About Me</a>
+                </div>
+                <div class="avatar">
+                    <img src="./images/Avatar.png" alt="Avatar">
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about_title">
+                <img src="./images/icon-user.png" alt="user" class="icon-user">
+                <h1>About <span class="highlight">Me</span></h1>
+            </div>
+            <div class=" wrapper about-wrapper">
+                <div class="group">
+                    <img src="./images/user-picture.svg" alt="picture" class="about-image">
+                    <p><b>Where live: </b>UK</p>
+                    <p><b>Age: </b>17</p>
+                    <p><b>Date of birth: </b>2007</p>
+                </div>
+                <div class="about-text">
+                    <p>My name is Bohdan. I develop modern websites and applications.</p>
+                    <p>I like to create interesting and modern projects.</p>
+                    <a href="#skills" class="btn">My skills</a>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills_title">
+                <img src="./images/laptop-code.png" alt="user" class="laptop-code">
+                <h1>Skills & Abilities</h1>
+            </div>
+            <div class="wrapper skills-wrapper">
+                <div class="skills_content">
+                    <div class="skill-set"><img src="https://img.icons8.com/fluency/48/000000/node-js.png" alt="ExpressJS"><span>ExpressJS</span></div>
+                    <div class="skill-set"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png" alt="TailwindCSS"> <span>TailwindCSS</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5"><span>HTML5</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3"><span>CSS3</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript"><span>JavaScript</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python"><span>Python</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL"><span>MySQL</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Netlify"><span>Netlify</span></div>
+                    <div class="skill-set"><img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="GitHub"><span>GitHub</span></div>
+                </div>
+                <a href="#work" class="btn">My work</a>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="work_title">
+                <img src="./images/laptop-code.png" alt="user" class="laptop-code">
+                <h1>Projects Made</h1>
+            </div>
+            <div class="wrapper work-wrapper">
+                <div class="work_content">
+                    <div class="work-set">
+                        <a href="https://github.com/BordenIce/Electronic-Shop_">
+                            <img src="./images/e-shop.png" alt="Electronic Shop">
+                        </a>
+                    </div>
+                    <div class="work-set">
+                        <a href="https://github.com/BordenIce/Film-Site-Project">
+                            <img src="./images/film.png" alt="Film Site Project">
+                        </a>
+                    </div>
+                    <div class="work-set">
+                        <a href="https://github.com/BordenIce/My-Project">
+                            <img src="./images/site.png" alt="My Project">
+                        </a>
+                    </div>
+                    <div class="work-set">
+                        <a href="https://github.com/BordenIce/First-project">
+                            <img src="./images/first.png" alt="First Project">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review" id="review">
+            <div class="review_title fade-in">
+                <img src="./images/icon-search.png" alt="user" class="search-icon">
+                <h1>Review</h1>
+            </div>
+            <div class="wrapper review-wrapper fade-in">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/review_0.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_1.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_2.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_3.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_4.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_5.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_6.png" alt="review"></div>
+                        <div class="swiper-slide"><img src="./images/review_7.png" alt="review"></div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact_title">
+                <img src="./images/contact-icon.png" alt="user" class="laptop-code">
+                <h1>Get In Touch</h1>
+            </div>
+            <div class="wrapper contact-wrapper">
+                <div class="contact_card">
+                    <div class="cantact_image">
+                        <img src="./images/contact_image.png" alt="image" style="width: 400px;">
+                    </div>
+                    <form action="" class="contact_form">
+                        <input type="text" name="name" placeholder="Name" >
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="Phone" placeholder="Phone number">
+                        <input type="text" name="Message" placeholder="Message" style="padding: 10px 10px 40px 10px;">
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper footer-wrapper">
+                <div class="footer_section aboutf">
+                    <h2>BordenIce's Portfolio</h2>
+                    <p>Thank you for visiting my personal portfolio website.</p>
+                </div>
+                <div class="footer_section linksf">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#review">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_section contactf">
+                    <h2>Contact Info</h2>
+                    <ul>
+                        <li><i class="phone"></i> +44 XXX-XXX-XXXX</li>
+                        <li><i class="email"></i> fomenkobohdan4@gmail.com</li>
+                        <li><i class="map-marker"></i> Downpatrick, UK BT308HY</li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://github.com/BordenIce" target="_blank"><img src="./images/github.png" alt="GitHub" class="social-icon"></a>
+                        <a href="https://x.com/BohdanF27944" target="_blank"><img src="./images/twitter.png" alt="Twitter" class="social-icon"></a>
+                        <a href="https://t.me/BordenIce" target="_blank"><img src="./images/telegram.png" alt="Telegram" class="social-icon"></a>
+                        <a href="http://www.instagram.com/_bordenice_" target="_blank"><img src="./images/instagram.png" alt="Instagram" class="social-icon"></a>
+                        <a href="https://discord.com/channels/@me" target="_blank"><img src="./images/discord.png" alt="Discord" class="social-icon"></a>
+                        <a href="https://wa.me/447778230034" target="_blank"><img src="./images/whatsapp.png" alt="Whatsapp" class="social-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>Designed By BordenIce</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scrypt.js"></script>
+</body>
+</html>
